@@ -24,3 +24,29 @@ public class App
        car.drive();
     }
 }
+//Now I want to add another class Bike.java
+package com.navin.Telusko;
+
+public class Bike {
+	public void drive()
+	{
+		System.out.println("Bhag raha hain...");
+	}
+
+}
+
+//now I am going to create object of the car in the by-default created java file App.java
+package com.navin.Telusko;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Bike obj = new Bike();
+    	obj.drive();
+    }
+}
