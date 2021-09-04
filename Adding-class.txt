@@ -50,3 +50,4 @@ public class App
     	obj.drive();
     }
 }
+// So everytime we have to make a same function instead of this we can create interface. The next code implement this.
